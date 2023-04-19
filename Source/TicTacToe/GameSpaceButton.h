@@ -29,5 +29,11 @@ protected:
 
 	UFUNCTION()
 	void OnButtonClicked();
+
+	UPROPERTY(EditAnywhere)
+	UTexture2D* XImage;
+
+	UPROPERTY(EditAnywhere)
+	UTexture2D* OImage;
 	
 };
